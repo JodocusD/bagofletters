@@ -1,0 +1,32 @@
+---
+title: "GhanaWeb Sections per day PPT"
+output: pdf_document
+dev: 'pdf'
+fig.height: 12
+geometry: margin= 0.5in
+---
+
+```{r setup, include=FALSE, fig.align="center"}
+knitr::opts_chunk$set(echo = FALSE, cache = FALSE)
+source('/Users/joost/Desktop/R/Engagement/Section Data Plotting v2.R')
+``` 
+
+
+```{r plot0, echo = FALSE, warning = FALSE, message = FALSE, fig.align="center"}
+singleplot
+```
+
+
+```{r plotI, echo = FALSE, warning = FALSE, message = FALSE, fig.height = 5, fig.align="center"}
+plotI
+```
+
+```{r plotII, echo = FALSE, warning = FALSE, message = FALSE, fig.height = 5, fig.align="center"}
+plotII
+```
+
+
+
+```{r plotIII, echo = FALSE, warning = FALSE, message = FALSE, fig.height = 5, fig.align="center"}
+plotIII
+```

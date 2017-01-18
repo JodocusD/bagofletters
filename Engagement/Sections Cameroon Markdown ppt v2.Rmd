@@ -1,0 +1,37 @@
+---
+title: "CameroonWeb sections per day PPT"
+output: pdf_document
+dev: pdf
+fig.height: 12
+geometry: margin= 0.5in
+---
+
+```{r setup, include=FALSE, fig.align="center"}
+knitr::opts_chunk$set(echo = FALSE, cache = FALSE)
+source('/Users/joost/Desktop/R/Engagement/Sections Cameroon.R')
+``` 
+
+
+```{r table1, echo = FALSE, warning = FALSE, message = FALSE, tab.cap="This is the head of the Iris table", fig.align="center"}
+
+
+print(paste('                   Section data of ', as.character(Sys.Date() -1), sep = ''))
+library(knitr)
+kable(yestertabletotal)
+kable(yestertable)
+```
+
+
+
+```{r plot0, echo = FALSE, warning = FALSE, message = FALSE, fig.align="center"}
+cmrp1
+```
+
+
+```{r plotI, echo = FALSE, warning = FALSE, message = FALSE, fig.height = 5, fig.align="center"}
+cmrp2
+```
+
+```{r plotII, echo = FALSE, warning = FALSE, message = FALSE, fig.height = 5, fig.align="center"}
+cmrp3
+```

@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1484655481913.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BD395A28",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1484655481913,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "3A3F825D",
+        "caption" : "yestertabletotal",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=yestertabletotal&cache_key=3A3F825D",
+        "displayedObservations" : "1",
+        "environment" : "",
+        "object" : "yestertabletotal",
+        "preview" : "0",
+        "totalObservations" : "1",
+        "variables" : "2"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

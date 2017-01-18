@@ -1,0 +1,28 @@
+---
+title: "Test pdf"
+output:
+  pdf_document:
+    latex_engine: xelatex
+fontsize: 12pt
+linkcolor: blue
+mainfont: Arial
+dev: pdf
+fig.height: 12
+geometry: margin= 0.5in
+---
+
+
+```{r setup, include=FALSE, fig.align="center"}
+knitr::opts_chunk$set(echo = FALSE, cache = FALSE)
+source('/Users/joost/Desktop/R/Engagement/Sections Cameroon.R')
+``` 
+
+
+```{r plot0, echo = FALSE, warning = FALSE, message = FALSE, fig.align="left", results = 'asis'}
+
+print(paste('Section data of ', as.character(Sys.Date() -1), sep=''))
+library(knitr)
+kable(yestertable)
+kable(yestertabletotal)
+```
+

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"CameroonWeb sections per day PPT\"\noutput: pdf_document\ndev: pdf\nfig.height: 12\ngeometry: margin= 0.5in\n---\n\n```{r setup, include=FALSE, fig.align=\"center\"}\nknitr::opts_chunk$set(echo = FALSE, cache = FALSE)\nsource('/Users/joost/Desktop/R/Engagement/Sections Cameroon.R')\n``` \n\n\n```{r table1, echo = FALSE, warning = FALSE, message = FALSE, tab.cap=\"This is the head of the Iris table\", fig.align=\"center\"}\n\n\nprint(paste('                   Section data of ', as.character(Sys.Date() -1), sep = ''))\nlibrary(knitr)\nkable(yestertabletotal)\nkable(yestertable)\n```\n\n\n\n```{r plot0, echo = FALSE, warning = FALSE, message = FALSE, fig.align=\"center\"}\ncmrp1\n```\n\n\n```{r plotI, echo = FALSE, warning = FALSE, message = FALSE, fig.height = 5, fig.align=\"center\"}\ncmrp2\n```\n\n```{r plotII, echo = FALSE, warning = FALSE, message = FALSE, fig.height = 5, fig.align=\"center\"}\ncmrp3\n```\n",
+    "created" : 1484572664621.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "740995866",
+    "id" : "D489C434",
+    "lastKnownWriteTime" : 1484723868,
+    "last_content_update" : 1484723868605,
+    "path" : "~/Desktop/R/Engagement/Sections Cameroon Markdown ppt v2.Rmd",
+    "project_path" : "Sections Cameroon Markdown ppt v2.Rmd",
+    "properties" : {
+        "last_setup_crc32" : "",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

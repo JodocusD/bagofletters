@@ -1,0 +1,9 @@
+"0","knitr::opts_chunk$set(echo = FALSE, cache = FALSE)"
+"0","source('/Users/joost/Desktop/R/Engagement/Section Data Plotting v2.R')"
+"2","Parsed with column specification:
+cols(
+  section = col_character(),
+  channel_id = col_integer(),
+  ad_slot_id = col_integer()
+)
+"

@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1484648576967.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3B0B9EA",
+    "lastKnownWriteTime" : -2305843009213693946,
+    "last_content_update" : 1484648576967,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "78879FEE",
+        "caption" : "cmrdesksect",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=cmrdesksect&cache_key=78879FEE",
+        "displayedObservations" : "14",
+        "environment" : "",
+        "object" : "cmrdesksect",
+        "preview" : "0",
+        "totalObservations" : "14",
+        "variables" : "3"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

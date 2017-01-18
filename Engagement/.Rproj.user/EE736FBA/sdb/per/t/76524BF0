@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1484572976125.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "76524BF0",
+    "lastKnownWriteTime" : -8059469662325112768,
+    "last_content_update" : 1484572976125,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "2BD43595",
+        "caption" : "sectjoin",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=sectjoin&cache_key=2BD43595",
+        "displayedObservations" : "356",
+        "environment" : "",
+        "object" : "sectjoin",
+        "preview" : "0",
+        "totalObservations" : "356",
+        "variables" : "6"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
